@@ -1,0 +1,11 @@
+{
+	"editor.formatOnSave": true,
+	"[go]": {
+		"editor.formatOnSave": true
+	},
+	"go.lintTool": "staticcheck",
+	"go.lintFlags": [
+		"-checks",
+		"all,-ST1003,-ST1006"
+	]
+}
